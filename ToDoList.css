@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 50px 50px;
+    max-width: 300px;
+    margin: 100px auto;
+}
+
+h1{
+    margin-top: -20px;
+    text-align: center;
+    color: rgb(195, 1, 1);
+}
+h2 {
+    margin-top: -10px;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+
+input {
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    color: white;
+    width: 300px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border:none;
+    font-size: larger;
+}
+
+.ADD {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.ADD:hover {
+    background-color: rgb(32, 32, 32);
+}
+
+.inputElement{
+    border: none;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.inputElement:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+
+.completeButton{
+    background-color: transparent;
+    color: black;
+    height: 25px;
+    width: 25px;
+    border: none;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+}
+
+.completeOnClick{
+    text-decoration: line-through;
+    color: rgb(117, 117, 117);
+}
+
+.removeButton{
+    background-color: rgb(161, 1, 1);
+    color: white;
+    height: 25px;
+    width: 25px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.name{
+    font-size: smaller;
+}
+
+
+
